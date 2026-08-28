@@ -1,0 +1,13 @@
+body
+{
+    background-color: black;
+}
+nav {
+    text-align: center;
+    background-color: blanchedalmond;
+}
+header {
+    background-image: url('transferir.jpg');
+    background-size: cover;
+    background-position: center;
+}
