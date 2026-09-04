@@ -5,9 +5,39 @@ body
 nav {
     text-align: center;
     background-color: blanchedalmond;
+    font-family:'PT Serif', 'Arial Narrow', Arial, sans-serif
 }
 header {
-    background-image: url('transferir.jpg');
     background-size: cover;
     background-position: center;
+    text-align: center;
+    font-family:'PT Serif', 'Arial Narrow', Arial, sans-serif
+}
+.asset-regular {
+  font-family: "Asset", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.pt-serif-regular {
+  font-family: "PT Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.pt-serif-bold {
+  font-family: "PT Serif", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.pt-serif-regular-italic {
+  font-family: "PT Serif", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.pt-serif-bold-italic {
+  font-family: "PT Serif", serif;
+  font-weight: 700;
+  font-style: italic;
 }
