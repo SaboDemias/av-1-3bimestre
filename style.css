@@ -1,26 +1,38 @@
 body
 {
-    background-color: black;
+   background-image: url(imagens/foguete.jpeg);
+   background-size: cover;
+   background-position: center;
 }
 nav {
     text-align: center;
     background-color: blanchedalmond;
-    font-family:'PT Serif', 'Arial Narrow', Arial, sans-serif
+    font-family: 'pt-serif-regular', serif;
+    padding: 5px;
+    position: absolute;
+    top: 100 ;
+    left: 0;
+    width: 100%;
 }
 header {
     background-size: cover;
     background-position: center;
     text-align: center;
-    font-family:'PT Serif', 'Arial Narrow', Arial, sans-serif
+    font-family:'Asset', 'Arial Narrow', Arial, sans-serif;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    position: relative; 
 }
 .asset-regular {
   font-family: "Asset", serif;
   font-weight: 400;
   font-style: normal;
 }
-.pt-serif-regular {
-  font-family: "PT Serif", serif;
-  font-weight: 400;
+.asset-bold {
+  font-family: "Asset", serif;
+  font-weight: 700;
   font-style: normal;
 }
 
@@ -40,4 +52,31 @@ header {
   font-family: "PT Serif", serif;
   font-weight: 700;
   font-style: italic;
+}
+.textinho {
+  color:antiquewhite;
+  padding-top: 40px;
+  margin-bottom: 40px;
+}
+a:link {
+  color: green;
+}
+a 
+{
+  padding: 10px;
+}
+a:visited {
+  color: white;
+}
+a:hover {
+  color: red;
+}
+a:active {
+  color: orange;
+}
+.texto-grande {
+  font-family: 'asset', Árial Narow, Arial, sans-serif;
+  color:rgb(117, 144, 145);
+  padding: 50px 0;
+  text-align:center
 }
