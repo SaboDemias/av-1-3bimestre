@@ -5,8 +5,7 @@ body
    background-position: center;
 }
 nav {
-    text-align: center;
-    background-color: blanchedalmond;
+    text-align:left;
     font-family: 'pt-serif-regular', serif;
     padding: 5px;
     position: absolute;
@@ -17,7 +16,7 @@ nav {
 header {
     background-size: cover;
     background-position: center;
-    text-align: center;
+    text-align: left;
     font-family:'Asset', 'Arial Narrow', Arial, sans-serif;
     height: 150px;
     display: flex;
@@ -54,12 +53,14 @@ header {
   font-style: italic;
 }
 .textinho {
-  color:antiquewhite;
+  font-family: geist pixel, Árial Narow, Arial, sans-serif;
+  color:white;
   padding-top: 40px;
   margin-bottom: 40px;
+  padding-left: 30px;
 }
 a:link {
-  color: green;
+  color: whitesmoke;
 }
 a 
 {
@@ -75,8 +76,22 @@ a:active {
   color: orange;
 }
 .texto-grande {
-  font-family: 'asset', Árial Narow, Arial, sans-serif;
-  color:rgb(117, 144, 145);
+  font-family: geist pixel, Árial Narow, Arial, sans-serif;
+  color:rgb(255, 255, 255);
   padding: 50px 0;
   text-align:center
+}
+.menu{
+  font-family: "Bytesized", Árial Narow, Arial, sans-serif;
+  border-left: 2px solid white;
+  height:max-content;
+  font-size: 25px;
+}
+.bytesized-regular {
+  font-family: "Bytesized", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+hr {
+  color: white;
 }
