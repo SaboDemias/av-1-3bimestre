@@ -28,4 +28,4 @@ Ana Valenttina
 Turma 1 a 
 Disciplina: Introdução ao Desenvolvimento WEB
 ## Link do site
-Insira o link do GitHub Pages.
+https://sabodemias.github.io/av-1-3bimestre/
