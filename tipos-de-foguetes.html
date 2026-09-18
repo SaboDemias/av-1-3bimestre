@@ -1,9 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>foguetes e tals</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"><link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -23,11 +22,11 @@
 <link href="https://fonts.googleapis.com/css2?family=Geist+Pixel&family=Silkscreen:wght@400;700&display=swap" rel="stylesheet"><link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bytesized&display=swap" rel="stylesheet">
-
-    
+    <title>Tipos de Foguetes</title>
 </head>
+
 <body>
-  <header>
+    <header>
     <div class="container-fluid p-0">
       <div class="row align-items-center g-0">
         <div class="col text-start ps-0">
@@ -41,55 +40,62 @@
   </header>
   <div class="row align-items-start g-4 mt-3 ms-3">
     
-    <!-- Menu Lateral (Sidebar) -->
-    <aside class="col-auto">
+   
+    <div class="container-fluid mt-3">
+  <div class="row align-items-start">
+    
+    
+    <aside class="col-md-3 col-12 mb-3">
       <h3 class="textinho">Menu</h3>
-      <ul class="menu">
-        <li><a href="componentes.html">Componentes</a></li>
+      <ul class="menu ps-0" style="list-style: none;">
+        <li><a href="tipos-de-foguetes.html">Componentes</a></li>
         <li><a href="historia.html">Historia</a></li>
         <li><a href="tipos-de-foguetes.html">Tipos de Foguetes</a></li>
         <li><a href="contato.html">Contato</a></li>
         <li><a href="index.html">Início</a></li>
-        <li><a href="artemis.html">Artemis</a></li>
       </ul>
     </aside>
 
-    <!-- Conteúdo Principal -->
-    <main class="col">
-      
-      <div class="row align-items-center">
-        
-       
-        <div class="col-auto">
-          <div class="card bg-black text-white" style="width: 18rem;">
-            <img src="imagens/ -2.jpg" class="card-img-top" alt="disco">
-            <div class="card-body">
-              <h5 class="card-title">:D</h5>
-              <p class="card-text">coisinho maneiro.</p>
-            </div>
-          </div>
-        </div>
-
-        <!-- Coluna 2: O Parágrafo ao lado -->
-        <div class="col">
-          <section>
-          <p>
-            Um foguete ou foguetão espacial é uma máquina que se desloca expelindo atrás de si um fluxo de gás a alta velocidade. Por conservação da quantidade de movimento (massa multiplicada por velocidade), o foguete desloca-se no sentido contrário com velocidade tal que, multiplicada pela massa do foguete, o valor da quantidade de movimento é igual ao dos gases expelidos.[1]
-            
-          </p>
-        </section>
-        <section>
-          <p>
-            O termo foguete é usado para designar qualquer veículo que se desloque por propulsão a jato, mas é mais frequentemente associado a veículos espaciais. A propulsão a jato é conseguida através da queima de combustível, que pode ser sólido ou líquido, e da expulsão dos gases resultantes da combustão. A propulsão a jato é baseada no princípio de ação e reação, descrito pela terceira lei de Newton.
-          </p>
-        </section>
-        </div>
-
+    
+    <main class="col-md-9 col-12">
+      <div class="table-responsive my-0">
+        <table class="table table-dark table-striped table-hover border-light">
+          <thead>
+            <tr>
+              <th scope="col">Tipo de Foguete</th>
+              <th scope="col">Função Principal</th>
+              <th scope="col">Exemplos</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Lançador Espacial (Orbital)</strong></td>
+              <td>Colocar satélites, sondas e naves espaciais na órbita da Terra ou em rotas interplanetárias.</td>
+              <td>Falcon 9, Ariane 6, Saturn V</td>
+            </tr>
+            <tr>
+              <td><strong>Foguete de Sondagem (Suborbital)</strong></td>
+              <td>Realizar experimentos científicos e coletas de dados na alta atmosfera sem entrar em órbita.</td>
+              <td>VS-30, Black Brant</td>
+            </tr>
+            <tr>
+              <td><strong>Foguete de Propulsão / Estágio Superior</strong></td>
+              <td>Ajustar a trajetória de carga útil ou realizar manobras de transferência orbital no espaço.</td>
+              <td>Centaur, Briz-M</td>
+            </tr>
+            <tr>
+              <td><strong>Foguete Reutilizável</strong></td>
+              <td>Pousar de volta na Terra após o lançamento para ser reutilizado e baratear o custo espacial.</td>
+              <td>Falcon Heavy, Starship</td>
+            </tr>
+          </tbody>
+        </table>
       </div>
+      <img src="imagens/nasa.png" alt="nasa" width="100" class="img-fluid mt-3">
     </main>
 
-</div>
-
   </div>
-  <body/>
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
 </html>

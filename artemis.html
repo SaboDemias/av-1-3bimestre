@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artemis</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Asset&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bytesized&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Geist+Pixel&display=swap" rel="stylesheet">
+
+    <!-- 1. Bootstrap CSS (Apenas a versão 5) -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- 2. Seu CSS Customizado SEMPRE por último para não ser sobrescrito -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="container-fluid p-0">
+    <div class="row align-items-center g-0">
+      <div class="col text-start ps-0">
+        <h1 class="texto-grande mb-0">foguetes e tals</h1>
+      </div>
+      <div class="col"> 
+        <h2 class="textinho mb-0">artemis-2</h2>
+      </div>
+    </div>
+  </header>
+
+  <div class="container-fluid mt-3">
+    <div class="row align-items-start">
+      
+      <!-- Menu Lateral (Esquerda) -->
+      <aside class="col-md-3 col-12">
+        <h3 class="textinho ps-0">Menu</h3>
+        <ul class="menu ps-0" style="list-style: none;">
+          <li><a href="componentes.html">Componentes</a></li>
+          <li><a href="historia.html">Historia</a></li>
+          <li><a href="artemis.html">Artemis</a></li>
+          <li><a href="contato.html">Contato</a></li>
+          <li><a href="index.html">Início</a></li>
+        </ul>
+      </aside>
+
+      <!-- Conteúdo Principal com Carrossel -->
+      <main class="col-md-9 col-12">
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    
+    <!-- Indicadores (Atualizados de 0 a 5) -->
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
+    </div>
+
+    <div class="carousel-inner">
+      <!-- Slide 1 -->
+      <div class="carousel-item active">
+        <img src="imagens/Artemis 2 Crew.jpg" class="d-block w-100" alt="Artemis 2 Crew">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>tripulação</h5>
+          <p>mt maneiro</p>
+        </div>
+      </div>
+
+      <!-- Slide 2 -->
+      <div class="carousel-item">
+        <img src="imagens/elaa.jpg" class="d-block w-100" alt="Artemis">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Segundo Slide</h5>
+          <p>Conteúdo descritivo do segundo slide.</p>
+        </div>
+      </div>
+
+      <!-- Slide 3 -->
+      <div class="carousel-item">
+        <img src="imagens/pilo.jpg" class="d-block w-100" alt="Foguete Artemis">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>TVictor Glove</h5>
+          <p> piloto</p>
+        </div>
+      </div>
+
+      
+      <div class="carousel-item">
+        <img src="imagens/rahh.avif" class="d-block w-100" alt="Quarto Slide">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Quarto Slide</h5>
+          <p>Descrição do quarto slide.</p>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <img src="imagens/capi.jpg" class="d-block w-100" alt="Quinto Slide">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Reid Wiseman</h5>
+          <p>capitão</p>
+        </div>
+      </div>
+
+      
+      <div class="carousel-item">
+        <img src="imagens/esp.jpg" class="d-block w-100" alt="Sexto Slide">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Jeremy Hansen</h5>
+          <p>especialista de missão</p>
+        </div>
+      </div>
+    </div>
+
+   
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Anterior</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Próximo</span>
+    </button>
+  </div>
+  <section>
+    <p>
+      Artemis II (1 a 11 de abril de 2026) foi um sobrevoo tripulado da Lua e o primeiro voo tripulado do programa Artemis, liderado pela NASA . Foi o primeiro voo tripulado além da órbita terrestre baixa (LEO) desde a Apollo 17 , em 1972, e o único voo tripulado além da LEO que não fez parte do programa Apollo . Foi também o primeiro voo tripulado do Sistema de Lançamento Espacial (SLS) e da espaçonave Orion , batizada de Integrity pela tripulação de quatro pessoas.
+    </p>
+  </section>
+</main>
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,28 +1,19 @@
-body
-{
+
+body{
    background-image: url(imagens/foguete.jpeg);
    background-size: cover;
    background-position: center;
 }
-nav {
-    text-align:left;
-    font-family: 'pt-serif-regular', serif;
-    padding: 5px;
-    position: absolute;
-    top: 100 ;
-    left: 0;
-    width: 100%;
-}
+
+
 header {
-    background-size: cover;
-    background-position: center;
-    text-align: left;
-    font-family:'Asset', 'Arial Narrow', Arial, sans-serif;
-    height: 150px;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    position: relative; 
+    
+   text-align: left;
+    font-family: 'Asset', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    height: auto !important; 
+  display: block !important;
+  padding-bottom: 50px;
 }
 .asset-regular {
   font-family: "Asset", serif;
@@ -55,9 +46,9 @@ header {
 .textinho {
   font-family: geist pixel, Árial Narow, Arial, sans-serif;
   color:white;
-  padding-top: 40px;
-  margin-bottom: 40px;
-  padding-left: 30px;
+ 
+  margin-bottom: 10px;
+  padding-left: 0px;
 }
 a:link {
   color: whitesmoke;
@@ -78,14 +69,19 @@ a:active {
 .texto-grande {
   font-family: geist pixel, Árial Narow, Arial, sans-serif;
   color:rgb(255, 255, 255);
-  padding: 50px 0;
-  text-align:center
+
+ 
 }
 .menu{
   font-family: "Bytesized", Árial Narow, Arial, sans-serif;
-  border-left: 2px solid white;
-  height:max-content;
+  text-decoration: none;
+  border-right: 2px solid white;
+  padding: 2px;
+  margin: 0px;
   font-size: 25px;
+  width: fit-content;
+  
+  margin-left: 0px;
 }
 .bytesized-regular {
   font-family: "Bytesized", sans-serif;
@@ -94,4 +90,41 @@ a:active {
 }
 hr {
   color: white;
+}
+
+
+.desgraca{
+  border-color:white;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgba(252, 251, 251, 0.5);
+}
+h1, h2, h3, h4, h5, h6 , p{
+  
+  color: white;
+}
+.linha-baixo{
+  border-bottom: 2px;
+  border-style: solid white;
+  
+}
+section{
+  margin: 20px;
+  padding: 50px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgba(252, 251, 251, 0.5);
+
+}
+.form-label {
+  color: #ffffff; 
+}
+
+
+.form-control {
+  color: #000000; 
+}
+
+.form-control::placeholder {
+  color: #aaaaaa;
 }
