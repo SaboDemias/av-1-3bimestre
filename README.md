@@ -7,8 +7,8 @@ informar seres humanos sobre foguetes
 
 ## Páginas do site
 - index.html
-- sobre.html
-- informacoes.html
+- tipos-de-foguete.html
+- historia.html
 - contato.html
 ## Tecnologias utilizadas
 - HTML5
